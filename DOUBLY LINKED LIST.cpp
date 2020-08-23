@@ -196,8 +196,9 @@ void  main()
 	linklist obj;
 	char ch;
 	int n;
+	
 	do
-	{
+	{   cout<<"\n*** MAIN MENU ***";
 	    cout<<"1.Insert Element at beginning"<<endl;
 	    cout<<"2.Insert Element at a position"<<endl;
 	    cout<<"3.Insert at end"<<endl;
@@ -240,7 +241,7 @@ void  main()
 	    break;
 	}
 	    cout<<" Do want to continue?"<<endl;
-	    cin>>choice;
+	    cin>>ch;
 	     }
 	     while(ch=='y'||ch=='Y');
        getch();
